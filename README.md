@@ -67,6 +67,28 @@ Create histograms, box plots, and summary statistics to understand data distribu
 
 In addition to basic visualizations, univariate and multivariate analysis were conducted to better understand feature behavior and relationships with the target variable (Item_Outlet_Sales).
 
+### Key Visualizations
+
+#### 1) Item MRP vs Sales (Strong Positive Relationship)
+This plot shows a clear positive relationship between `Item_MRP` and `Item_Outlet_Sales`, making `Item_MRP` one of the most predictive features.
+
+<img width="558" height="393" alt="download (15)" src="https://github.com/user-attachments/assets/7fdf3c65-d4bf-4e1f-8479-1404eaa9b4ca" />
+
+---
+
+#### 2) Sales Differences by Outlet Type
+Average sales vary significantly by `Outlet_Type`, highlighting the impact of store characteristics on performance.
+
+<img width="589" height="390" alt="download (1)" src="https://github.com/user-attachments/assets/ba1fb50e-d078-4abb-80dc-6a01e98689fa" />
+
+---
+
+#### 3) Target Distribution (Right-Skewed Sales)
+The target variable `Item_Outlet_Sales` is right-skewed, meaning most products have low sales while a smaller number achieve very high sales.
+<img width="462" height="387" alt="histogram" src="https://github.com/user-attachments/assets/ec012f18-2d1d-44e7-b2e5-81e09f04c111" />
+
+
+
 ### Univariate Analysis
 
 Univariate analysis was used to examine the distribution of individual features and identify potential outliers or skewness.
