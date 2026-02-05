@@ -62,12 +62,12 @@ This project uses the following Python packages:
    Handle missing values, correct data types, and prepare features.
 
 4. **Data Visualization**  
-   Create histograms, box plots, and summary statistics to understand data distributions.
-Exploratory Data Analysis (EDA)
+Create histograms, box plots, and summary statistics to understand data distributions.
+### Exploratory Data Analysis (EDA)
 
 In addition to basic visualizations, univariate and multivariate analysis were conducted to better understand feature behavior and relationships with the target variable (Item_Outlet_Sales).
 
-🔹 Univariate Analysis
+### Univariate Analysis
 
 Univariate analysis was used to examine the distribution of individual features and identify potential outliers or skewness.
 
@@ -79,7 +79,7 @@ Some numerical features exhibit outliers that may impact model performance.
 
 Categorical variables show imbalance across certain categories.
 
-🔹 Multivariate Analysis
+### Multivariate Analysis
 
 Multivariate analysis was performed to explore relationships between features and their combined impact on sales.
 
